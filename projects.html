@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mes projets — Jad</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800;900&display=swap" rel="stylesheet" />
+</head>
+<body class="page-projects">
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">JAD.</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="about.html">Qui suis-je ?</a></li>
+      <li><a href="projects.html" class="active">Mes projets</a></li>
+    </ul>
+  </nav>
+
+  <!-- VIDEO BG -->
+  <div class="projects-video-wrap">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="assets/projects-reel.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-overlay dark"></div>
+  </div>
+
+  <section class="projects-hero">
+    <h1 class="projects-big-title">Agent<br/><em>Double</em></h1>
+    <p class="projects-sub">Créateur de contenu × UI/UX Designer</p>
+  </section>
+
+  <!-- CARDS -->
+  <section class="projects-grid">
+
+    <article class="project-card" data-video="assets/proj1.mp4">
+      <div class="pcard-thumb">
+        <video class="pcard-video" autoplay muted loop playsinline>
+          <source src="assets/proj1.mp4" type="video/mp4" />
+        </video>
+        <div class="pcard-overlay"></div>
+        <div class="ph-img pcard-ph"></div>
+      </div>
+      <div class="pcard-info">
+        <span class="pcard-tag">Branding</span>
+        <h2 class="pcard-title">Projet 01</h2>
+        <p class="pcard-desc">Direction Artistique — Salon Nautique de Paris, Captain Skipper.</p>
+        <a href="#" class="btn-blue small">Voir →</a>
+      </div>
+    </article>
+
+    <article class="project-card" data-video="assets/proj2.mp4">
+      <div class="pcard-thumb">
+        <video class="pcard-video" autoplay muted loop playsinline>
+          <source src="assets/proj2.mp4" type="video/mp4" />
+        </video>
+        <div class="pcard-overlay"></div>
+        <div class="ph-img pcard-ph"></div>
+      </div>
+      <div class="pcard-info">
+        <span class="pcard-tag">Journalisme</span>
+        <h2 class="pcard-title">Brut.IA</h2>
+        <p class="pcard-desc">Création de contenu vidéo quotidien. VivaTech, J Balvin, 1M+ vues.</p>
+        <a href="#" class="btn-blue small">Voir →</a>
+      </div>
+    </article>
+
+    <article class="project-card" data-video="assets/proj3.mp4">
+      <div class="pcard-thumb">
+        <video class="pcard-video" autoplay muted loop playsinline>
+          <source src="assets/proj3.mp4" type="video/mp4" />
+        </video>
+        <div class="pcard-overlay"></div>
+        <div class="ph-img pcard-ph"></div>
+      </div>
+      <div class="pcard-info">
+        <span class="pcard-tag">Sport</span>
+        <h2 class="pcard-title">Publicis Sport</h2>
+        <p class="pcard-desc">Société Générale Rugby, TOP 14, CAN 2025. Football2gether.</p>
+        <a href="#" class="btn-blue small">Voir →</a>
+      </div>
+    </article>
+
+    <article class="project-card orange-card" data-video="assets/proj4.mp4">
+      <div class="pcard-thumb">
+        <video class="pcard-video" autoplay muted loop playsinline>
+          <source src="assets/proj4.mp4" type="video/mp4" />
+        </video>
+        <div class="pcard-overlay orange-overlay"></div>
+        <div class="ph-img pcard-ph orange-ph"></div>
+      </div>
+      <div class="pcard-info">
+        <span class="pcard-tag orange-tag">Startup</span>
+        <h2 class="pcard-title">Madi3ch</h2>
+        <p class="pcard-desc">App anti-gaspillage — Maroc. Inspirée de Too Good To Go.</p>
+        <a href="#" class="btn-orange small">Voir →</a>
+      </div>
+    </article>
+
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

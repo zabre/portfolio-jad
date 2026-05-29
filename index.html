@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jad — CREATor de CONTENU</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">JAD.</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Accueil</a></li>
+      <li><a href="about.html">Qui suis-je ?</a></li>
+      <li><a href="projects.html">Mes projets</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <!-- VIDEO BG -->
+    <div class="hero-video-wrap">
+      <video class="hero-video" autoplay muted loop playsinline poster="assets/placeholder-hero.jpg">
+        <!-- Remplace src par ta propre vidéo -->
+        <source src="assets/hero-reel.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+    </div>
+
+    <!-- PHOTO GRID MASONRY -->
+    <div class="hero-grid">
+      <div class="photo-card tall" style="--delay:0s"><div class="ph-img"></div></div>
+      <div class="photo-card" style="--delay:0.1s"><div class="ph-img"></div></div>
+      <div class="photo-card wide" style="--delay:0.2s"><div class="ph-img"></div></div>
+      <div class="photo-card tall" style="--delay:0.3s"><div class="ph-img"></div></div>
+      <div class="photo-card" style="--delay:0.4s"><div class="ph-img"></div></div>
+      <div class="photo-card" style="--delay:0.5s"><div class="ph-img"></div></div>
+    </div>
+
+    <!-- HERO TEXT -->
+    <div class="hero-text">
+      <span class="hero-the">The</span>
+      <h1 class="hero-title">CREATor<br /><em>de CONTENU</em></h1>
+    </div>
+  </section>
+
+  <!-- ABOUT TEASER -->
+  <section class="about-teaser">
+    <div class="about-teaser-inner">
+      <div class="about-portrait">
+        <div class="portrait-frame">
+          <div class="ph-img portrait-ph"></div>
+        </div>
+      </div>
+      <div class="about-copy">
+        <p class="about-tag">Ça, c'est moi Jad.</p>
+        <p class="about-body">Un étudiant en 5ème année de communication spécialisé en design digital. Mon parcours en alternance m'a permis de me concentrer sur la création de contenu pour divers clients, tout en n'oubliant pas les bases solides acquises à l'école.</p>
+        <p class="about-body">Aujourd'hui, fort de mon expérience en design digital et de ma spécialisation en création de contenu pour une variété de clients, je franchis le pas vers l'entrepreneuriat en tant que freelance.</p>
+        <a href="about.html" class="btn-blue">En savoir plus →</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
