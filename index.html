@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800;900&display=swap" rel="stylesheet" />
 </head>
 <body>
 
@@ -18,34 +18,84 @@
       <li><a href="index.html" class="active">Accueil</a></li>
       <li><a href="about.html">Qui suis-je ?</a></li>
       <li><a href="projects.html">Mes projets</a></li>
+      <li><a href="contact.html">Me contacter</a></li>
     </ul>
   </nav>
 
   <!-- HERO -->
   <section class="hero">
-    <!-- VIDEO BG -->
-    <div class="hero-video-wrap">
-      <video class="hero-video" autoplay muted loop playsinline poster="assets/placeholder-hero.jpg">
-        <!-- Remplace src par ta propre vidéo -->
-        <source src="assets/hero-reel.mp4" type="video/mp4" />
-      </video>
-      <div class="hero-overlay"></div>
+    <!-- TIKTOK / INSTA EMBED GRID -->
+    <div class="hero-grid" id="heroGrid">
+
+      <div class="hero-cell tall" style="--delay:0s">
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tiktok/video/6718335390845095173"
+          data-video-id="6718335390845095173" style="max-width:100%;min-width:0;">
+          <section></section>
+        </blockquote>
+      </div>
+
+      <div class="hero-cell" style="--delay:0.08s">
+        <blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/p/C0000000001/"
+          data-instgrm-version="14"
+          style="width:100%;">
+        </blockquote>
+      </div>
+
+      <div class="hero-cell" style="--delay:0.16s">
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tiktok/video/6745656850688466177"
+          data-video-id="6745656850688466177" style="max-width:100%;min-width:0;">
+          <section></section>
+        </blockquote>
+      </div>
+
+      <div class="hero-cell tall" style="--delay:0.24s">
+        <blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/p/C0000000002/"
+          data-instgrm-version="14"
+          style="width:100%;">
+        </blockquote>
+      </div>
+
+      <div class="hero-cell" style="--delay:0.32s">
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tiktok/video/6950501452922954501"
+          data-video-id="6950501452922954501" style="max-width:100%;min-width:0;">
+          <section></section>
+        </blockquote>
+      </div>
+
+      <div class="hero-cell" style="--delay:0.4s">
+        <blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/p/C0000000003/"
+          data-instgrm-version="14"
+          style="width:100%;">
+        </blockquote>
+      </div>
+
+      <div class="hero-cell tall" style="--delay:0.48s">
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tiktok/video/7106594312292453634"
+          data-video-id="7106594312292453634" style="max-width:100%;min-width:0;">
+          <section></section>
+        </blockquote>
+      </div>
+
+      <div class="hero-cell" style="--delay:0.56s">
+        <blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/p/C0000000004/"
+          data-instgrm-version="14"
+          style="width:100%;">
+        </blockquote>
+      </div>
+
     </div>
 
-    <!-- PHOTO GRID MASONRY -->
-    <div class="hero-grid">
-      <div class="photo-card tall" style="--delay:0s"><div class="ph-img"></div></div>
-      <div class="photo-card" style="--delay:0.1s"><div class="ph-img"></div></div>
-      <div class="photo-card wide" style="--delay:0.2s"><div class="ph-img"></div></div>
-      <div class="photo-card tall" style="--delay:0.3s"><div class="ph-img"></div></div>
-      <div class="photo-card" style="--delay:0.4s"><div class="ph-img"></div></div>
-      <div class="photo-card" style="--delay:0.5s"><div class="ph-img"></div></div>
-    </div>
+    <!-- DARK OVERLAY -->
+    <div class="hero-overlay-dark"></div>
 
     <!-- HERO TEXT -->
     <div class="hero-text">
       <span class="hero-the">The</span>
-      <h1 class="hero-title">CREATor<br /><em>de CONTENU</em></h1>
+      <h1 class="hero-title">CREATOR<br /><em>DE CONTENU</em></h1>
     </div>
   </section>
 
@@ -66,6 +116,10 @@
     </div>
   </section>
 
+  <!-- TikTok embed script -->
+  <script async src="https://www.tiktok.com/embed.js"></script>
+  <!-- Instagram embed script -->
+  <script async src="//www.instagram.com/embed.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
